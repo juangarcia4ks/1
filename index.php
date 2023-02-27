@@ -1,4 +1,3 @@
-<?php include 'includes/_header.php'; ?>
 <?php
 session_start();
 
@@ -53,4 +52,3 @@ if($_SESSION["s_usuario"] === null){
      <script src="../codigo.js"></script>    
     </body>
 </html>
-<?php include 'includes/_footer.php'; ?>
